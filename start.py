@@ -90,7 +90,7 @@ def test(dataframe):
 st.title('Etude accès aux énergies dans le monde')
 st.write('Juillet 2024')
 
-img_nrj = Image.open('/pages/energy.jpg')
+img_nrj = Image.open('pages/energy.jpg')
 st.image(img_nrj, caption="Energie électrique, la plus moderne?", use_column_width=True)
 
 load_data = 'gdose11.csv'
